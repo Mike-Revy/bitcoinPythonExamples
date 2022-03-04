@@ -1,1 +1,29 @@
-test 
+testing git ... 
+to make a folder a repository  
+> git init 
+> git status 
+> dir /A:H   - shows hidden files like .git 
+> git ls-files   ... show files in staging area 
+> git add file-1.txt file-2.txt
+> git status
+> git rm --cached <file> ... to unstage 
+> git add .     all files into staging area 
+> py digitalClock.py
+> git log 
+> git branch 
+> git branch clock  .. adds new brach 
+> git log --oneline
+> git switch 'clock'
+> git reset --hard 1a5736a  - go back to a certain instance 
+> git checkout f704c62 - forks a new master 
+> git remote -v    ... check to see if current folder has been uploaded 
+> git remote add origin https://github.com/Mike-Revy/bitcoinPythonExamples.git
+>  git remote -v
+origin  https://github.com/Mike-Revy/bitcoinPythonExamples.git (fetch)
+origin  https://github.com/Mike-Revy/bitcoinPythonExamples.git (push)
+.. .http://localhost:58633/?code=e2500c072265464c38cf&state=96c35fe50e0948fa9670761a1359b602
+> git push -u origin main
+> git pull origin main
+
+
+
